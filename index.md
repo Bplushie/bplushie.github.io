@@ -2,10 +2,15 @@
 layout: default
 ---
 
-<div class="teste">
-<h2>Header 1</h2>
+<div class="block image1">
+  <div class="text">
+    <h2>Header 1</h2>
 
-  <p>This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere. </p>
+    <p>This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere. </p>
+  </div>
+  <div>
+    <img src="https://placehold.co/600x700/00000/png">
+  </div>
 </div>
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.

@@ -377,11 +377,28 @@ a {
 
 /* CUSTOM CSS */
 
-.teste {
-  background-color: antiquewhite;
-  padding: 64px;
+.block {
   height: 700px;
   display: flex;
   align-items: center;
-  flex-direction: column;
+
+}
+
+.image1 {
+  background-image: url(https://placehold.co/1920x700);
+  background-size: cover;
+  background-position: center;
+}
+.text {
+  @include large {
+    padding: 5%;
+  }
+
+  @include medium {
+    padding: 5%;
+  }
+
+  @include small {
+    padding: 5%;
+  }
 }
