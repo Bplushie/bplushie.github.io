@@ -3,9 +3,9 @@ layout: default
 ---
 
 <div class="teste">
-# Header 1
+<h2>Header 1</h2>
 
-  This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+  <p>This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere. </p>
 </div>
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
