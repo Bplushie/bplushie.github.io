@@ -2,5 +2,5 @@
 
 set -e
 
-gem install bundler
-bundle install
+gem install bundler -v 3.0.0
+bundle install
