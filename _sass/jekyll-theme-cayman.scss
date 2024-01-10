@@ -418,18 +418,17 @@ a {
 .imagefix {
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
 }
 
 .image1 {
   background-image: url(background1.png);
   @include medium {
     background-image: url(art1.png);
-    background-attachment: fixed;
   }
 
   @include small {
     background-image: url(art1.png);
-    background-attachment: fixed;
   }
 }
 
@@ -437,12 +436,10 @@ a {
   background-image: url(background2.png);
   @include medium {
     background-image: url(art2.png);
-    background-attachment: fixed;
   }
 
   @include small {
     background-image: url(art2.png);
-    background-attachment: fixed;
   }
 }
 
@@ -450,12 +447,10 @@ a {
   background-image: url(background3.png);
   @include medium {
     background-image: url(art3.png);
-    background-attachment: fixed;
   }
 
   @include small {
     background-image: url(art3.png);
-    background-attachment: fixed;
   }
 }
 
@@ -463,12 +458,10 @@ a {
   background-image: url(background4.png);
   @include medium {
     background-image: url(art4.png);
-    background-attachment: fixed;
   }
 
   @include small {
     background-image: url(art4.png);
-    background-attachment: fixed;
   }
 }
 
@@ -476,12 +469,10 @@ a {
   background-image: url(background5.png);
   @include medium {
     background-image: url(art5.png);
-    background-attachment: fixed;
   }
 
   @include small {
     background-image: url(art5.png);
-    background-attachment: fixed;
   }
 }
 
@@ -489,12 +480,10 @@ a {
   background-image: url(background6.png);
   @include medium {
     background-image: url(art6.png);
-    background-attachment: fixed;
   }
 
   @include small {
     background-image: url(art6.png);
-    background-attachment: fixed;
   }
 }
 .text {
