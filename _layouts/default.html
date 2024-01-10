@@ -16,6 +16,18 @@
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
+
+      <nav>
+        <a href="#">No mask</a>
+        <ul class="list">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <button class="search">Search</button>
+        <button class="menu">Menu</button>
+      </nav>
     
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
