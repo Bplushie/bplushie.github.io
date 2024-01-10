@@ -5,7 +5,7 @@ description: This is just another page
 ---
 
 
-<div class="block image1">
+<div class="block image1 imagefix animate">
   
   <img class="imagesize" src="assets/css/layer1.png">
   <div class="text">
@@ -16,7 +16,7 @@ description: This is just another page
   
 </div>
 
-<div class="block image4">
+<div class="block image4 imagefix animate">
   <div class="text">
     <h2>Header 1</h2>
 
@@ -25,7 +25,7 @@ description: This is just another page
   <img class="imagesize" src="assets/css/layer4.png">
 </div>
 
-<div class="block image2">
+<div class="block image2 imagefix animate">
 
   <img class="imagesize" src="assets/css/layer2.png">
   <div class="text">
@@ -36,7 +36,7 @@ description: This is just another page
   
 </div>
 
-<div class="block image5">
+<div class="block image5 imagefix animate">
   <div class="text">
     <h2>Header 1</h2>
 
@@ -45,7 +45,7 @@ description: This is just another page
   <img class="imagesize" src="assets/css/layer5.png">
 </div>
 
-<div class="block image3">
+<div class="block image3 imagefix animate">
 
   <img class="imagesize" src="assets/css/layer3.png">
   <div class="text">
@@ -56,7 +56,7 @@ description: This is just another page
 
 </div>
 
-<div class="block image6">
+<div class="block image6 imagefix animate">
   <div class="text">
     <h2>Header 1</h2>
 

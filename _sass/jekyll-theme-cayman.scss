@@ -382,22 +382,18 @@ a {
 
   @include medium {
     flex-direction: column;
+    justify-content: center;
   }
 
   @include small {
     flex-direction: column;
+    justify-content: center;
   }
 
 }
 
 .imagesize {
   height: 700px;
-  position: relative;
-  animation: rotate 1s linear infinite;
-  animation-play-state: paused;
-  animation-delay: calc(var(--scroll) * -1s);
-  animation-iteration-count: 1;
-  animation-fill-mode: both;
   @include medium {
     display: none;
   }
@@ -406,16 +402,26 @@ a {
     display: none;
   }
 }
-@keyframes rotate {
+.animate {
+  animation: scroll 1s linear infinite;
+  animation-play-state: paused;
+  animation-delay: calc(var(--scroll) * -1s);
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+
+@keyframes scroll {
   to {
-    transform: translatex(150px); 
+    background-position: 150%;
   }
+}
+.imagefix {
+  background-size: cover;
+  background-position: center;
 }
 
 .image1 {
   background-image: url(background1.png);
-  background-size: cover;
-  background-position: center;
   @include medium {
     background-image: url(art1.png);
     background-attachment: fixed;
@@ -429,8 +435,6 @@ a {
 
 .image2 {
   background-image: url(background2.png);
-  background-size: cover;
-  background-position: center;
   @include medium {
     background-image: url(art2.png);
     background-attachment: fixed;
@@ -444,8 +448,6 @@ a {
 
 .image3 {
   background-image: url(background3.png);
-  background-size: cover;
-  background-position: center;
   @include medium {
     background-image: url(art3.png);
     background-attachment: fixed;
@@ -459,8 +461,6 @@ a {
 
 .image4 {
   background-image: url(background4.png);
-  background-size: cover;
-  background-position: center;
   @include medium {
     background-image: url(art4.png);
     background-attachment: fixed;
@@ -474,8 +474,6 @@ a {
 
 .image5 {
   background-image: url(background5.png);
-  background-size: cover;
-  background-position: center;
   @include medium {
     background-image: url(art5.png);
     background-attachment: fixed;
@@ -489,8 +487,6 @@ a {
 
 .image6 {
   background-image: url(background6.png);
-  background-size: cover;
-  background-position: center;
   @include medium {
     background-image: url(art6.png);
     background-attachment: fixed;
