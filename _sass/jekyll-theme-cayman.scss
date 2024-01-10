@@ -403,32 +403,33 @@ a {
   }
 }
 .animate {
-  animation: scroll 1s linear infinite;
+  animation: scroll 0.5s linear infinite;
   animation-play-state: paused;
   animation-delay: calc(var(--scroll) * -1s);
-  animation-iteration-count: 1;
+  animation-iteration-count: 3;
   animation-fill-mode: both;
 }
 
 @keyframes scroll {
-  to {
-    background-position: 150%;
+  0%{ background-position: 0%;}
+  50%{  background-position: 50%;}
+  100%{  background-position: 0%;}
   }
-}
 .imagefix {
-  background-size: cover;
+  background-size: 120%;
   background-position: center;
-  background-attachment: fixed;
 }
 
 .image1 {
   background-image: url(background1.png);
   @include medium {
     background-image: url(art1.png);
+    background-attachment: fixed;
   }
 
   @include small {
     background-image: url(art1.png);
+    background-attachment: fixed;
   }
 }
 
@@ -436,10 +437,12 @@ a {
   background-image: url(background2.png);
   @include medium {
     background-image: url(art2.png);
+    background-attachment: fixed;
   }
 
   @include small {
     background-image: url(art2.png);
+    background-attachment: fixed;
   }
 }
 
@@ -447,10 +450,12 @@ a {
   background-image: url(background3.png);
   @include medium {
     background-image: url(art3.png);
+    background-attachment: fixed;
   }
 
   @include small {
     background-image: url(art3.png);
+    background-attachment: fixed;
   }
 }
 
@@ -458,10 +463,12 @@ a {
   background-image: url(background4.png);
   @include medium {
     background-image: url(art4.png);
+    background-attachment: fixed;
   }
 
   @include small {
     background-image: url(art4.png);
+    background-attachment: fixed;
   }
 }
 
@@ -469,10 +476,12 @@ a {
   background-image: url(background5.png);
   @include medium {
     background-image: url(art5.png);
+    background-attachment: fixed;
   }
 
   @include small {
     background-image: url(art5.png);
+    background-attachment: fixed;
   }
 }
 
@@ -480,10 +489,12 @@ a {
   background-image: url(background6.png);
   @include medium {
     background-image: url(art6.png);
+    background-attachment: fixed;
   }
 
   @include small {
     background-image: url(art6.png);
+    background-attachment: fixed;
   }
 }
 .text {
