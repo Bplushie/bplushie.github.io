@@ -417,11 +417,13 @@ a {
   background-size: cover;
   background-position: center;
   @include medium {
-    background-image: url(layer1.png);
+    background-image: url(art1.png);
+    background-attachment: fixed;
   }
 
   @include small {
-    background-image: url(layer1.png);
+    background-image: url(art1.png);
+    background-attachment: fixed;
   }
 }
 
@@ -429,30 +431,75 @@ a {
   background-image: url(background2.png);
   background-size: cover;
   background-position: center;
+  @include medium {
+    background-image: url(art2.png);
+    background-attachment: fixed;
+  }
+
+  @include small {
+    background-image: url(art2.png);
+    background-attachment: fixed;
+  }
 }
 
 .image3 {
   background-image: url(background3.png);
   background-size: cover;
   background-position: center;
+  @include medium {
+    background-image: url(art3.png);
+    background-attachment: fixed;
+  }
+
+  @include small {
+    background-image: url(art3.png);
+    background-attachment: fixed;
+  }
 }
 
 .image4 {
   background-image: url(background4.png);
   background-size: cover;
   background-position: center;
+  @include medium {
+    background-image: url(art4.png);
+    background-attachment: fixed;
+  }
+
+  @include small {
+    background-image: url(art4.png);
+    background-attachment: fixed;
+  }
 }
 
 .image5 {
   background-image: url(background5.png);
   background-size: cover;
   background-position: center;
+  @include medium {
+    background-image: url(art5.png);
+    background-attachment: fixed;
+  }
+
+  @include small {
+    background-image: url(art5.png);
+    background-attachment: fixed;
+  }
 }
 
 .image6 {
   background-image: url(background6.png);
   background-size: cover;
   background-position: center;
+  @include medium {
+    background-image: url(art6.png);
+    background-attachment: fixed;
+  }
+
+  @include small {
+    background-image: url(art6.png);
+    background-attachment: fixed;
+  }
 }
 .text {
   padding: 5%;
