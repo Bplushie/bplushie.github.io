@@ -172,12 +172,10 @@ a {
   }
 
   @include medium {
-    padding: 2rem 4rem;
     font-size: 1.1rem;
   }
 
   @include small {
-    padding: 2rem 1rem;
     font-size: 1rem;
   }
   
@@ -391,6 +389,7 @@ a {
   }
 
 }
+
 .imagesize {
   height: 700px;
 }
@@ -432,7 +431,7 @@ a {
 .text {
   padding: 5%;
 }
-.text p, h2 {
+.text p, .text h2 {
   text-shadow: 0 0 5px rgba(0,0,0,0.5);
   color: #ffffff;
 }
