@@ -65,4 +65,10 @@ description: This is just another page
   <img class="imagesize" src="assets/css/layer6.png">
 </div>
 
+<script>
+window.addEventListener('scroll', () => {
+  document.body.style.setProperty('--scroll', window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
+}, false);
+</script>
+
 [back](./)
