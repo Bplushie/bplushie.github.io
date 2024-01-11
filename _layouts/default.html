@@ -30,7 +30,7 @@
         <!-- Botão de busca menu --
           <button class="search">Search</button>-->
           <button class="menu" onclick="dropdown()">Menu</button>
-        <div class="menu-box">
+        <div class="menu-box" id="menu-boxid">
           <ul class="list-dropdown">
             <li class="menu-item"><a href="#">Sobre</a></li>
             <li class="menu-item"><a href="#">Ilustrações</a></li>
@@ -66,7 +66,7 @@
 
     <script>
       function dropdown(){
-      var x = document.getElementById("menu-box")
+      var x = document.getElementById("menu-boxid")
       if (x.style.display === "block")
         {x.style.display = "none";} 
       else
