@@ -588,3 +588,43 @@ nav.is-hidden {
 #menu-boxid {
   display: none;
 }
+/*editar menu*/
+.menu-item {
+  font-size: 13px;
+  padding: 13px 0;
+  text-align: left;
+  font-weight: 500;
+  color: #909dc2;
+  cursor: pointer;
+  position: relative;
+  border-bottom: 1px solid #e0e2e9;
+}
+.menu-item:before{
+  content:'';
+  position: absolute;
+  width: 3px;
+  height: 28px;
+  background-color: #3d6def;
+  left: -13px;
+  top: 50%;
+  transform: translateY(-50%);
+  display:none;
+}
+
+.menu-box:before{
+  content:'';
+  background-color: transparent;
+  border-right: 8px solid transparent;
+  position: absolute;
+  border-left: 8px solid transparent;
+  border-bottom: 8px solid #fff;
+  border-top: 8px solid transparent;
+  top: -15px;
+  right: 18px;
+
+}
+
+.menu-box:after{
+  content:'';
+  background-color: transparent;
+}
