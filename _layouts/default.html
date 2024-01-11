@@ -29,7 +29,7 @@
         </ul>
         <!-- Botão de busca menu --
           <button class="search">Search</button>-->
-        <button class="menu" id="menu">Menu</button>
+          <button class="menu" onclick="dropdown()">Menu</button>
         <div class="menu-box">
           <ul class="list-dropdown">
             <li class="menu-item"><a href="#">Sobre</a></li>
@@ -65,13 +65,14 @@
     </main>
 
     <script>
-      
-      $(document).ready(function(){
-        $('#menu').click(function(){
-          $('.menu-box').toggleClass('menu-active');
-        });
-      });
-
+      function dropdown(){
+      var x = document.getElementById("menu-box")
+      if (x.style.display === "block")
+        {x.style.display = "none";} 
+      else
+         {x.style.display = "block";}
+      }
     </script>
+
   </body>
 </html>
