@@ -6,14 +6,12 @@ description: This is just another page
 
 
 <div class="block image1 imagefix animate">
-  
   <img class="imagesize" src="assets/css/layer1.png">
   <div class="text">
     <h2>Header 1</h2>
 
     <p>This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere. </p>
   </div>
-  
 </div>
 
 <div class="block image4 imagefix animate">
