@@ -412,18 +412,6 @@ a {
   50%{  background-position: 50%;}
   100%{  background-position: 0%;}
 }
-.animate2 {
-  animation: teste 0.5s linear infinite;
-  animation-play-state: paused;
-  animation-delay: calc(var(--scroll) * -1s);
-  animation-iteration-count: 3;
-  animation-fill-mode: both;
-}
-@keyframes teste {
-  0%{ background-position: 50%;}
-  50%{  background-position: 0%;}
-  100%{  background-position: 50%;}
-}
 
 .imagefix {
   background-size: 120%;
